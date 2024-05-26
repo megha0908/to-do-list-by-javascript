@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F4F4F4;
+}
+.app-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background: #6200EA;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #4500B5;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #F9F9F9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li input {
+    margin-right: 10px;
+}
+#todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    overflow-y: auto;
+}
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    word-wrap: break-word;
+}
+#todo-list li span {
+    flex: 1;
+    margin-right: 10px;
+    word-break: break-word;
+}
+#todo-list li div {
+    display: flex;
+    align-items: center;
+}
